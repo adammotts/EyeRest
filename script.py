@@ -32,7 +32,9 @@ def main():
     Main loop to dim the screen every 20 minutes.
     """
     while True:
+        print("Waiting for 20 minutes...")
         time.sleep(WAIT_DURATION)
+        print("Dimming screen...")
         dim_screen(DIM_DURATION, DEFAULT_BRIGHTNESS)
 
 if __name__ == "__main__":
