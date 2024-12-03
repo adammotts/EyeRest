@@ -1,8 +1,8 @@
 import os
 import time
 
-WAIT_DURATION = 3
-DIM_DURATION = 3
+WAIT_DURATION = 1200
+DIM_DURATION = 30
 DEFAULT_BRIGHTNESS = 0.7
 
 def set_brightness(level):
